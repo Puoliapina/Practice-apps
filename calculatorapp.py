@@ -6,13 +6,6 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 
-
-# class Screen(BoxLayout):
-#     fontsize = 40
-#
-#     def __init__(self, **kwargs):
-#         super(Screen, self).__init__(**kwargs)
-
 class CalcApp(App):
     def build(self):
 
@@ -36,32 +29,7 @@ class CalcApp(App):
 
         return over_all_layout
 
-
-
     def on_enter(self, value):
         pass
 
-
-    def longpressed(self,button):
-        pass
-
-
-    def edit_func(self, object):
-        pass
-
-
-    def remove_func(self, object):
-        pass
-
-
 CalcApp().run()
-
-
-# class MyApp(App):
-#
-#     def build(self):
-#         return Screen()
-#
-#
-# if __name__ == '__main__':
-#     MyApp().run()
